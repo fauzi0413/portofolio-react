@@ -15,7 +15,7 @@ const AboutMe = () => {
                         <div className="col-md-6 col-sm-12 text-center">
                             <div className="row justify-content-center">
                                 <div className="col-md-10">
-                                    <img src={fauzi} className='profil-picture' alt='profil picture'/>
+                                    <img src={fauzi} className='profil-picture text-center' alt='profil picture'/>
                                 </div>
                             </div>
                         </div>
