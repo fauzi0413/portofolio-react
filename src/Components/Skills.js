@@ -21,10 +21,11 @@ const Skill = () =>{
                         <Card bg='warning' text='light' className="border-0 shadow" style={{ minHeight:'97px' }}>
                             <Card.Header className="text-center fw-bold">Intermediate</Card.Header>
                             <Card.Body className="bg-light rounded-card">
-                                <Badge bg='danger' className="bagde">HTML</Badge>
+                                <Badge bg='' className="bagde" style={{ backgroundColor:'blueviolet' }}>Bootstrap</Badge>
                                 <Badge bg='primary' className="bagde">CSS</Badge>
+                                <Badge bg="" className="bagde" style={{ backgroundColor:'#FF5733' }}>HTML</Badge>
                                 <Badge bg="" className="bagde" style={{ backgroundColor:'gray' }}>MySQL</Badge>
-                                <Badge bg='' className="bagde" style={{ backgroundColor:'blueviolet' }}>PHP</Badge>
+                                <Badge bg='' className="bagde" style={{ backgroundColor:'#6868b3' }}>PHP</Badge>
                             </Card.Body>
                         </Card>
                     </div>

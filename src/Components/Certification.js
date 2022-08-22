@@ -9,6 +9,7 @@ import sertifikat1 from '../Assets/Image/sertifikat-2020-11-html&css.png'
 import sertifikat2 from '../Assets/Image/sertifikat-2020-10-js.png'
 import sertifikat3 from '../Assets/Image/sertifikat-2020-5-webDasar.png'
 import sertifikat4 from '../Assets/Image/sertifikat-2022-6-webDasar.png'
+import sertifikat5 from '../Assets/Image/sertifikat-2022-1-PanitiaOSH.png'
 
 const SampleNextArrow = (props) => {
     const {className, style, onClick} = props
@@ -31,7 +32,6 @@ const SamplePrevArrow = (props) => {
         />
     )
 }
-
 
 const Certification = () => {
     const settings = {
@@ -64,7 +64,7 @@ const Certification = () => {
                                 <Card.Body>
                                     <Card.Text className="text-dark">
                                         <h5>Sertifikat Kelas Belajar Dasar Pemrogramman Website</h5>
-                                        <a href="https://www.dicoding.com/certificates/1OP8LD908ZQK" className="op-date text-dark text-decoration-none">Dicoding : Mei 2020 - 2023</a>
+                                        <a href="https://www.dicoding.com/certificates/1OP8LD908ZQK" target="_blank"  className="op-date text-dark text-decoration-none">Dicoding : Mei 2020 - 2023</a>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -75,7 +75,7 @@ const Certification = () => {
                                 <Card.Body>
                                     <Card.Text className="text-dark">
                                         <h5>Sertifikat Pelatihan Coding Fundamental JavaScript</h5>
-                                        <a href="https://progate.com/course_certificate/5a8487eeqijgrl" className="op-date text-dark text-decoration-none">Progate : Okt 2020</a>
+                                        <a href="https://progate.com/course_certificate/5a8487eeqijgrl" target="_blank"  className="op-date text-dark text-decoration-none">Progate : Okt 2020</a>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -86,7 +86,7 @@ const Certification = () => {
                                 <Card.Body>
                                     <Card.Text className="text-dark">
                                         <h5>Sertifikat Pelatihan Coding Fundamental HTML & CSS</h5>
-                                        <a href="https://progate.com/course_certificate/d9240389qi3mt2" className="op-date text-dark text-decoration-none">Progate : Nov 2020</a>
+                                        <a href="https://progate.com/course_certificate/d9240389qi3mt2" target="_blank"  className="op-date text-dark text-decoration-none">Progate : Nov 2020</a>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -97,7 +97,18 @@ const Certification = () => {
                                 <Card.Body>
                                     <Card.Text className="text-dark">
                                         <h5>Sertifikat Kelas Basic Web Programming</h5>
-                                        <a href="https://camp404.com/public/cert/CCPR225B13098Q1S3SI" className="op-date text-dark text-decoration-none">Camp 404 : Jun 2022 - 2025</a>
+                                        <a href="https://camp404.com/public/cert/CCPR225B13098Q1S3SI" target="_blank"  className="op-date text-dark text-decoration-none">Camp 404 : Jun 2022 - 2025</a>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="px-4">
+                            <Card>
+                                <Card.Img variant="top" src={sertifikat5} />
+                                <Card.Body>
+                                    <Card.Text className="text-dark">
+                                        <h5>Sertifikat Panitia Penyelenggara Event Olimpiade Satu Hati</h5>
+                                        <a href="https://bit.ly/PanitiaOSH" target="_blank" className="op-date text-dark text-decoration-none">Olimpiade Satu Hati : Jan 2022</a>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

@@ -3,13 +3,12 @@ import {Card} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleExclamation} from '@fortawesome/free-solid-svg-icons';
 import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
-import profil from '../Assets/Image/profil2.png'
 import fauzi from '../Assets/Image/profil-fauzi.JPG'
 
 const AboutMe = () => {
     return(
         <React.Fragment>
-            <Card bg='dark' style={{ borderRadius:20 }}>
+            <Card bg="dark" className="" style={{ borderRadius:20 }}>
                 <Card.Body className='text-white'>
                     <div className="row justify-content-center px-3 py-3">
                         <div className="col-md-6 col-sm-12 text-center">
