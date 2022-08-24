@@ -13,7 +13,9 @@ import osh2 from '../Assets/Image/OSH/img (2).png'
 import osh3 from '../Assets/Image/OSH/img (3).png'
 import osh4 from '../Assets/Image/OSH/img (4).png'
 import osh5 from '../Assets/Image/OSH/img (5).png'
+
 import ModalDescription from "./ModalDescription";
+import ModalImagesProjects from "./ModalImagesProjects";
 
 const SampleNextArrow = (props) => {
     const {className, style, onClick} = props
@@ -55,6 +57,8 @@ const Projects = () => {
             }
         ]
     }
+    
+    const [modalShow, setModalShow] = React.useState(false);
 
     return(
         <React.Fragment>
@@ -65,7 +69,7 @@ const Projects = () => {
                         <div className="px-4">
                             <div className="row py-3">
                                 <div className="col-md-12 col-lg-6 p-2 h-100 rounded-4 shadow">
-                                    <Carousel variant="dark">
+                                    <Carousel variant="dark" className="modal-img" onClick={() => setModalShow(true)}>
                                         <Carousel.Item>
                                             <img className="d-block w-100 rounded-2 img-item" src={osh1} alt="First slide"/>
                                         </Carousel.Item>
@@ -96,11 +100,19 @@ const Projects = () => {
                                         <div className="ms-4">
                                             <div>
                                                 <FontAwesomeIcon icon={faCircle} className="fw-bold me-2" style={{fontSize:10}}/>
+                                                <Badge bg='' className="bagde" style={{ backgroundColor:'blueviolet' }}>Bootstrap</Badge>
+                                            </div>
+                                            <div>
+                                                <FontAwesomeIcon icon={faCircle} className="fw-bold me-2" style={{fontSize:10}}/>
                                                 <Badge bg='primary' className="bagde">CSS</Badge>
                                             </div>
                                             <div>
                                                 <FontAwesomeIcon icon={faCircle} className="fw-bold me-2" style={{fontSize:10}}/>
-                                                <Badge bg="" className="bagde" style={{ backgroundColor:'#FF5733' }}>HTML</Badge>
+                                                <Badge bg='' className="bagde" style={{ backgroundColor:'#F55D5C' }}>Laravel</Badge>
+                                            </div>
+                                            <div>
+                                                <FontAwesomeIcon icon={faCircle} className="fw-bold me-2" style={{fontSize:10}}/>
+                                                <Badge bg='' className="bagde" style={{ backgroundColor:'gray' }}>MySQL</Badge>
                                             </div>
                                         </div>
                                     </div>
@@ -126,6 +138,10 @@ const Projects = () => {
                     </Slider>
                 </div>
             </div>
+            <ModalImagesProjects
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </React.Fragment>
     )
 }

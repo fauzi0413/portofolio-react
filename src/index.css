@@ -49,14 +49,14 @@ body {
   margin-right: 5px;
 }
 
-.main-padding{
-  padding: 50px;
-}
-
 .profil-picture{
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.modal-img{
+  cursor: pointer;
 }
 
 .description{
@@ -126,6 +126,10 @@ code {
   .img-item{
     height: 350px;
   }
+
+  .main-padding{
+    padding: 30px;
+  }
 }
 
 @media only screen and (min-width: 1000px){
@@ -135,5 +139,9 @@ code {
 
   .img-item{
     height: 100%;
+  }
+
+  .main-padding{
+    padding: 50px;
   }
 }
