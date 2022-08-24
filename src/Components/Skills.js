@@ -5,7 +5,7 @@ import Certification from "./Certification"
 const Skill = () =>{
     return(
         <React.Fragment>
-            <div className="py-5">
+            <div className="py-5" id="skill">
                 <h3 className="pb-3">Keahlian yang saya miliki</h3>
                 <div className="row justify-content-center">
                     <div className="col-sm-12 col-md-4">

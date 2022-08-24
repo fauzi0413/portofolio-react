@@ -8,7 +8,7 @@ import fauzi from '../Assets/Image/profil-fauzi.JPG'
 const AboutMe = () => {
     return(
         <React.Fragment>
-            <Card bg="dark" className="" style={{ borderRadius:20 }}>
+            <Card bg="dark" id="about" style={{ borderRadius:20 }}>
                 <Card.Body className='text-white'>
                     <div className="row justify-content-center px-3 py-3">
                         <div className="col-md-6 col-sm-12 text-center">

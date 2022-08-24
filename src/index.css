@@ -10,6 +10,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.arrowTop{
+  position: fixed;
+  font-size: 40px;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 100;
+  animation: updown 2s infinite;
+}
+
+@keyframes updown {
+  0%{
+    bottom: 20px;
+  }
+  50%{
+    bottom: 30px;
+  }
+  100%{
+    bottom: 20px;
+  }
+}
+
+/* .arrowTop:hover{
+  opacity: 1;
+} */
+
 .icons{
   opacity: 0.5;
 }
@@ -77,14 +104,36 @@ code {
   }
 }
 
+@media only screen and (min-width: 374px){
+  .profil-picture{
+    height: 300px;
+  }
+
+  .main-padding{
+    padding: 20px;
+  }
+
+  .img-item{
+    height: 220px;
+  }
+}
+
 @media only screen and (min-width: 740px){
   .profil-picture{
     height: 260px;
+  }
+
+  .img-item{
+    height: 350px;
   }
 }
 
 @media only screen and (min-width: 1000px){
   .profil-picture{
     height: 400px;
+  }
+
+  .img-item{
+    height: 100%;
   }
 }

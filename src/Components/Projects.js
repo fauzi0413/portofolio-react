@@ -58,7 +58,7 @@ const Projects = () => {
 
     return(
         <React.Fragment>
-            <div className="py-5">
+            <div className="py-5" id="project">
                 <h3 className="pb-3">Projek yang saya buat</h3>
                 <div className="" style={{ padding: "0 30px 0 30px" }}>
                     <Slider {...settings} className="text-white px-3 pb-3">
