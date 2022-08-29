@@ -1,6 +1,5 @@
 import React from "react"
 import { Badge, Card } from "react-bootstrap"
-import Certification from "./Certification"
 
 const Skill = () =>{
     return(
@@ -39,7 +38,6 @@ const Skill = () =>{
                     </div>
                 </div>
             </div>
-            <Certification/>
         </React.Fragment>
     )
 }

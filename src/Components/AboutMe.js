@@ -8,7 +8,7 @@ import fauzi from '../Assets/Image/profil-fauzi.JPG'
 const AboutMe = () => {
     return(
         <React.Fragment>
-            <Card bg="dark" id="about" style={{ borderRadius:20 }}>
+            <Card bg="dark" id="about" style={{ borderRadius:20}}>
                 <Card.Body className='text-white'>
                     <div className="row justify-content-center px-3 py-3">
                         <div className="col-md-6 col-sm-12 text-center">
@@ -21,9 +21,10 @@ const AboutMe = () => {
                         <div className="col-md-6 col-sm-12 text-center">
                             <h4 className="fw-bold pt-3"><FontAwesomeIcon icon={faCircleExclamation}/> Information</h4>
                             <hr className="fw-bold"/>
-                            <p className="description">Saya Fauzi Aditya Pratama. Mahasiswa dari Institut Teknologi Telkom Purwokerto yang sedang belajar tentang pemrogramman. Bahasa yang sedang saya pelajari sekarang adalah REACT JS, dengan bahasa ini juga website portofolio ini dibuat. </p>
+                            <h5 className="fw-bold"><label className="opacity-50">Haiii</label> 👋🏻</h5>
+                            <p className="description">Perkenalkan nama saya Fauzi Aditya Pratama, lahir di Cilacap pada tanggal 3 Januari 2004. Saya anak pertama dari tiga bersaudara, pada saat ini saya bertempat tinggal di Bekasi. Saya memiliki ketertarikan pada dunia teknologi dan mengkhususkan niat untuk memperdalam ilmu di dunia pemrogramman.</p>
                             <div>
-                                <a href="https://www.linkedin.com/in/fauzi-aditya-pratama-9ab971214" target="_blank" className="text-white fa-2x me-3 icons"><FaLinkedin/></a>
+                                <a href="https://www.linkedin.com/in/fauzi-aditya-pratama" target="_blank" className="text-white fa-2x me-3 icons"><FaLinkedin/></a>
                                 <a href="https://github.com/fauzi0413" target="_blank" className="text-white fa-2x me-3 icons"><FaGithub/></a>
                                 <a href="https://www.instagram.com/fauzi_4p" target="_blank" className="text-white fa-2x me-3 icons"><FaInstagram/></a>
                             </div>
